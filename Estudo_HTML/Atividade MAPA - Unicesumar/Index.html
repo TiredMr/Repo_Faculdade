@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        Calculadora Churrasco
+    </title>
+    <script src="Calculo Churrasco.js"></script>
+    <link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+    <main class="pagina">
+        <div class="titulo">
+            <h1> Atividade MAPA - Programação Front End </h1>
+            <h3><strong> Calculadora de compras para churrascos: </strong></h3>
+        </div>
+        <div class="calculadora">
+            <form class="fomulario">
+                <p><strong> Quantidade de pessoas:</strong></p>
+                <p> Homens: <label>
+                        <input type="number" name="Homens" id="men">
+                    </label></p>
+                <p> Mulheres: <label>
+                        <input type="number" name="Mulheres" id="woman">
+                    </label></p>
+                <p> Crianças: <label>
+                        <input type="number" name="Crianças" id="kid">
+                    </label></p>
+                <p>
+                    <button type="button" onclick="total()"> Calcular </button>
+                </p>
+            </form>
+        </div>
+        <div class="resultado" id="result" >
+            <p> <strong> Quantidade de itens a serem comprados: </strong>
+            <ul style="list-style-type: disc;">
+                <li id="TCarne">
+                    0g de Carne Bovina
+                </li>
+                <li id="TFrango">
+                    0g de Frango
+                </li>
+                <li id="TLinguica">
+                    0g de Linguica
+                </li>
+                <li id="TRefrigerante">
+                    0ml de Refrigerante
+                </li>
+                <li id="TCerveja">
+                    0ml de Cerveja
+                </li>
+            </ul>
+            </p>
+        </div>
+    </main>
+</body>
+
+</html>

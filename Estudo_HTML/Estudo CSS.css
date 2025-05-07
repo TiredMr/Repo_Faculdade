@@ -1,0 +1,137 @@
+/*Sintaxe CSS: {PROPRIEDADE:VALOR; PROPRIEDADE:VALOR} -->
+
+<!-- ======================================================== -->
+<!-- Seletor "backgroud", ajusta todas as propriedades de fundo de uma vez. --> */
+
+/* Ajusta a cor do fundo da pagina. */
+background-color
+
+/* Ajusta a imagem do fundo da pagina. */
+background-image
+
+/* Ajusta a repetição de imagem do fundo da pagina. */
+backgroud-repeat
+
+/* Ajusta a rolagem da imagem do fundo da pagina. */
+background-attachment
+
+/* Ajusta a posição da imagem de fundo. */
+background-position
+
+/* =============================================================== */
+/* Seletor "border", ajusta todas as propriedades de borda de uma vez.
+   -color = Ajusta a cor da borda.
+   -style = Ajusta o topo da linha de borda.
+   -width = ajusta a largura da linha de borda. */ 
+
+/* Ajusta as propriedades de borda de baixo de uma vez. */   
+border-bottom
+
+/* Ajusta as propriedades de borda de cima de uma vez. */
+border-top
+
+/* Ajusta as propriedades de borda da esquerda de uma vez. */
+border-left
+
+/* Ajusta as propriedades de borda da direira de uma vez. */
+border-right
+
+
+/* =============================================================== */
+/* Seletor "margin", ajusta todas as bordas do elemento de uma vez. */
+
+/* Ajusta as margens de cima do elemento. */
+margin-top
+
+/* Ajusta as margens da direita do elemento. */
+margin-top
+
+/* Ajusta as margens de baixo do elemento. */
+margin-bottom
+
+/* Ajusta as margens da esquerda do elemento. */
+margin-left
+
+
+/* ================================================================== */
+/* Seletor "padding", ajusta o espaçamento entre a borda e conteudo.
+
+/* Ajusta o espaçamento entre a borda de cima e o conteudo. */
+padding-top
+
+/* Ajusta o espaçamento entre a borda da direita e o conteudo. */
+padding-right
+
+/* Ajusta o espaçamento entre a borda de baixo e o conteudo. */
+padding-bottom
+
+/* Ajusta o espaçamento entre a borda da esquerda e o conteudo. */
+padding-left
+
+/* ================================================================== */
+/* Seletor "color", ajusta a cor de um elemento (texto, tabela, etc.). */
+color-
+
+/* =================================================================== */
+/* Seletor "text", ajusta as propriedades de um texto */
+
+/* Ajusta o espaçamento horizontal do texto de um elemento */
+text-align
+
+/* Permite destacar textos com linhas usando as opções: 
+   -overline = linha sobre.
+   -line-through = linha riscando o texto.
+   -underline = linha abaixo do texto. */
+text-decoration 
+
+/* Modifica os caracteres do texto usando as opções: 
+   -uppercase = letras maiusculas
+   -lowercase = letras minusculas
+   -capitalize = letra capitular */
+text-transform 
+
+/* Ajusta o espaçamento entre linhas do texto. */
+line-height
+
+/* Adiciona efeito de sombra a um texto. */
+text-shadow
+
+/* Perdite a escolha de fontes para texto. */
+font-family
+
+/* Ajusta efeitos entre texto normal ou italico. */
+font-style
+
+/* Ajusta o tamanho da fonte em px, em, rem ou %. */
+font-size
+
+/* Ajusta efeitos entre texto normal ou negrito */
+font-weight
+
+/* ============================================================== */
+/* Seletor "a", ajusta propriedades de um link. */
+
+/* Comando para configurar estilos para lnks nao clicados */
+a:link
+
+/* Comando para configurar estilos para links ja clicados */
+a:visited
+
+/* Comando para configurar estilos quando mouse em esta em cima do link */
+a:hover
+
+/* Comando para configurar estilos quando link é clicado */
+a:active
+
+/* ============================================================= */
+/* Seletor "list", ajusta propriedades de listas. */
+
+/* Cria topicos em listas usando opções como:
+   -square = topico em formato quadrado,
+   -circle = topico em formato circular,
+   -upper-roman = topico em formato de numero romanos, 
+   -lower-alpha = topico em formato de letras. */
+list-style-type
+
+/* Ultiliza imagens gravadas como marcadores em listas. */
+list-style-image

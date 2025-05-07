@@ -1,0 +1,455 @@
+<style>
+
+/*Sintaxe CSS: {PROPRIEDADE:VALOR; PROPRIEDADE:VALOR} -->
+
+<!-- ======================================================== -->
+<!-- Seletor "backgroud", ajusta todas as propriedades de fundo de uma vez. --> */
+
+/* Ajusta a cor do fundo da pagina. */
+background-color
+
+/* Ajusta a imagem do fundo da pagina. */
+background-image
+
+/* Ajusta a repetição de imagem do fundo da pagina. */
+backgroud-repeat
+
+/* Ajusta a rolagem da imagem do fundo da pagina. */
+background-attachment
+
+/* Ajusta a posição da imagem de fundo. */
+background-position
+
+/* Ajusta o tamanho da imagem de fundo. (-contain, -cover). */
+background-size
+
+/* Especifica a posição inicial do plano de fundo: 
+   border-box = a imagem de fundo se inica no canto superior esquerdo,
+   padding-box = a imagem de fundo se inica da borda,
+   content-box = a imagem de fundo se inicia junto com o texto. */
+background-origin
+
+/* Especifica a posição inicial da cor de fundo:
+   border-box = a imagem de fundo se inica no canto superior esquerdo,
+   padding-box = a imagem de fundo se inica da borda,
+   content-box = a imagem de fundo se inicia junto com o texto. */
+background-clip
+
+/* Ajusta a cor de fundo em gradiente linear (Direção: [left-top, to buttom right, to right, to left, etc.] 0° a 360°; Cor inical; Cor final ) */
+linear-gradient
+
+/* Ajusta a cor de fundo em gradiente radial (Forma: [circle, closest-side, farthest-side, closest-corner, farthest-corner]; Cor [nome]; Porcentagem [%]).*/
+radial-gradient
+
+
+
+
+
+/* =============================================================== */
+/* Seletor "border", ajusta todas as propriedades de borda de uma vez.
+   -color = Ajusta a cor da borda.
+   -style = Ajusta o topo da linha de borda.
+   -width = ajusta a largura da linha de borda. */ 
+
+/* Ajusta as propriedades de borda de baixo de uma vez. */   
+border-bottom
+
+/* Ajusta as propriedades de borda de cima de uma vez. */
+border-top
+
+/* Ajusta as propriedades de borda da esquerda de uma vez. */
+border-left
+
+/* Ajusta as propriedades de borda da direira de uma vez. */
+border-right
+
+/* Ajusta o arredondamento de cantos pela ordem: sup. esquerdo, sup. direito, inf. esquerdo, inf. direito. */
+border-radius
+
+/* Adiciona uma imagem para compor a borda. */
+border-image
+
+
+/* =============================================================== */
+/* Seletor "margin", ajusta todas as bordas do elemento de uma vez. */
+
+/* Ajusta as margens de cima do elemento. */
+margin-top
+
+/* Ajusta as margens da direita do elemento. */
+margin-top
+
+/* Ajusta as margens de baixo do elemento. */
+margin-bottom
+
+/* Ajusta as margens da esquerda do elemento. */
+margin-left
+
+
+/* ================================================================== */
+/* Seletor "padding", ajusta o espaçamento entre a borda e conteudo.
+
+/* Ajusta o espaçamento entre a borda de cima e o conteudo. */
+padding-top
+
+/* Ajusta o espaçamento entre a borda da direita e o conteudo. */
+padding-right
+
+/* Ajusta o espaçamento entre a borda de baixo e o conteudo. */
+padding-bottom
+
+/* Ajusta o espaçamento entre a borda da esquerda e o conteudo. */
+padding-left
+
+/* ================================================================== */
+/* Seletor "color", ajusta a cor de um elemento (texto, tabela, etc.). */
+color-
+
+/* Define cores e transparencia (cor, %saturação, %brilho). */
+rgba-
+
+/* Ajustes de cor, saturação, luminosidade e transparencia (0 a 360, 0% a 100%, 0% a 100%, 0 a 1) */
+hsla-
+
+
+/* =================================================================== */
+/* Seletor "text", ajusta as propriedades de um texto */
+
+/* Ajusta o espaçamento horizontal do texto de um elemento */
+text-align
+
+/* Permite destacar textos com linhas usando as opções: 
+   -overline = linha sobre.
+   -line-through = linha riscando o texto.
+   -underline = linha abaixo do texto. */
+text-decoration 
+
+/* Modifica os caracteres do texto usando as opções: 
+   -uppercase = letras maiusculas
+   -lowercase = letras minusculas
+   -capitalize = letra capitular */
+text-transform 
+
+/* Ajusta o espaçamento entre linhas do texto. */
+line-height
+
+/* Adiciona efeito de sombra a um texto. */
+text-shadow
+
+/* Perdite a escolha de fontes para texto. */
+font-family
+
+/* Ajusta efeitos entre texto normal ou italico. */
+font-style
+
+/* Ajusta o tamanho da fonte em px, em, rem ou %. */
+font-size
+
+/* Ajusta efeitos entre texto normal ou negrito */
+font-weight
+
+/* ============================================================== */
+/* Seletor "a", ajusta propriedades de um link. */
+
+/* Comando para configurar estilos para lnks nao clicados */
+a:link
+
+/* Comando para configurar estilos para links ja clicados */
+a:visited
+
+/* Comando para configurar estilos quando mouse em esta em cima do link */
+a:hover
+
+/* Comando para configurar estilos quando link é clicado */
+a:active
+
+/* ============================================================= */
+/* Seletor "list", ajusta propriedades de listas. */
+
+/* Cria topicos em listas usando opções como:
+   -square = topico em formato quadrado,
+   -circle = topico em formato circular,
+   -upper-roman = topico em formato de numero romanos, 
+   -lower-alpha = topico em formato de letras. */
+list-style-type
+
+/* Ultiliza imagens gravadas como marcadores em listas. */
+list-style-image
+
+/* ======================================================================= */
+/* Seletores e parametros CSS para construção de tabelas e caixas DIV. */
+
+/* Ajusta as bordas para tags (<table>, <th>, <td>) em tabelas. */
+border-
+
+/* Permite deixar a borda simples (collapse). */
+border-collapse
+
+/* Cria uma sombra em caixas DIV (Tamanho; Borrar ; Cor) */
+box-shadow
+
+/* Define dimensões para elementos:
+   -width = define a largura,
+   -height = define a altura, */
+width-
+height-
+
+/* Ajusta a posição vertical de um texto */
+vertical-align
+
+/* Ajusta a distancia entre a borda e o texto */
+padding-
+
+/* Seletor para estilo, largura e cor da linha ao redor do DIV */
+outline-
+
+/* Define estilo de linha ao redor de um DIV, usando os seguintes parametros: 
+   -dotted = linha pontilhada;
+   -dashed = linha tracejada;
+   -solid = linha simples;
+   -double = linha dupla;
+   -groove, -ridge, -inset, outset = bordas 3d;
+   -none = sem nenhuma linha;
+   -hidden = linha oculta.  */
+outline-style
+
+/* Define a largura da linha a redor de um DIV */
+outiline-width
+
+/* Define a cor da linha ao redor de um DIV */
+outiline-color
+
+/* Define o limite maximo de largura e altura de um DIV
+   -width = largura
+   -height - altura */
+max-width
+max-height
+
+/* Define o limine minimo de largura e altura de um DIV 
+   -width = largura
+   -height = altura */
+min-width
+min-height
+
+/* Seletor para posicionamento de objetos em camadas (-1) */
+z-index
+
+/* Seletor para definir o posicionamento de elementos em relação a outros */
+float-
+
+/* Anula o efeito do seletor "float" */
+clear-
+
+/* Classe que pode ser usada para ajustar elementos de forma a se organizarem com o parametro "overflow: auto" */
+clearfix-
+
+/* Caixas para alocar elementos soltos de tamanhos variados */
+floating-box
+
+/* Ajustes feitos por "floating-box" (clear: left:) */
+after-box
+
+/* Define o posicionamento de elementos */
+margin-
+
+/* Seletor para posicionamento definido por parametros:
+   -absolute = para dimensões e posiçao exatas,
+   -relative = para ajustes proporcionais a janela. */
+position: absolute
+position: relative
+
+/* Seletor para definir transparencia (entre 0 e 1) */
+opacity: 0.4
+
+/* Efeitos 2D e 3D em elementos a partir de parametros diversos:
+
+   translate() = move o elemento horizontalmente e verticalmente (px)
+   rotate() = gira um elemento em horario (deg) ou anti-horario (-deg)
+   scale() = aumenta ou reduz o tamanho de um elemento (valor)
+   skewX() = inclina um elemento de acordo com o angulo (deg)
+   skewY() = inclina um elemento de acordo com o angulo (deg)
+   matrix() = agrupa todos os metodos acima em valores
+   rotateX() = gira o elemento sobre o eixo cental X (deg)
+   rotateY() = gira o elemento sobre o eixo central Y (deg)
+   rotateZ() = gira o elemento sobre o eixo central Z (deg)
+   translate3d() = define um movimento em 3d (x,y,z)
+   scale3d() = aumenta ou reduz em 3d (x,y)
+   rotate3d() = gira o elmento (x,y,z, angulo)
+   perspective() = visão perspectiva de um elemento (n) */
+transform-
+
+/* Ajustes no tempo de execução dos efeitos:
+   
+   ease: inicio lento e acelerando no final,
+   linear: do inicio ao fim com a mesma velocidade,
+   ease-in: inicio lento da transição,
+   ease-out: final lento da transição,
+   cubic-bezier (n,n,n,n): ajustes na curva de tansição. */
+transition-
+
+/* Ajusta um tempo de espera para o inicio de uma transição */
+transition-delay
+
+/* Divide o contecudo de um elemento em colunas(valor) */
+column-count
+
+/* Define a distancia entre as colunas definidas (px) */
+column-gap
+
+/* Define o estilo da linha divisoria entre colunas */
+column-rule-syle
+
+/* Define a espessura da linha divisoria entre colunas (px) */
+column-rule-width
+
+/* Define a cor da lina divisoria entre colunas (nome) */
+column-rule-color
+
+/* Agrupa as definições para divisao de elementos em colunas */
+colum-rule
+
+/* Mescla colunas divididas (column-span: all) */
+column-span
+
+/* Especifica a largura preferencial para colunas (px) */
+column-width
+
+/* ================================================================== */
+/* Seletor para ajuste de filtros para tratamento de imagens: 
+
+   None = retira efeitos ativados,
+   blur() = embaça a imagem (%),
+   brightness () = ajusta o brilho da imagem (%),
+   contrast() = ajusta o contraste da imagem (%),
+   drop-shadow() = ajusta a sombra na imagem (horiz, Vet, blur, cor)
+   grayscale() = converte a imagem em tons de cinza (%0),
+   hue-rotate() = matriz da imagem,
+   invert() = inverte as cores da imagem no estilo negativo (%),
+   opacity() = transparencia da imagem (%),
+   saturate() = saturação da imagem,
+   sepia() = converte a imagem no estilo envelhecida. */
+filter-
+
+
+</style>
+
+<!-- =============================================================================== -->
+<!-- Exemplo de uso do CSS para links  -->
+
+<html>
+      <head>
+        <style>
+
+            p {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size: 14px;
+            }
+
+            a:link {
+                color: blue;
+            }
+
+            a:visited {
+                color: red;
+            }
+
+            a:hover {
+                color: black;
+            }
+
+            a:active {
+                color: yellow
+            }
+
+        </style>
+      </head>
+    <body>
+        <p>
+            <b>
+                <a href="Estudo HTML.html" target="_blank"> Observe como mudam as cores deste link </a>
+            </b>
+        </p>
+   </body>
+</html>
+
+<!-- ================================================================================-->
+<!-- Exempo de ajuste de fonte usando CSS-->
+
+<html>
+    <body>
+        <style>
+            body {
+                font: 100% verdana, arial, sans-serif;
+            }
+
+            h1 {
+                font-size: 2.50em;
+            }
+
+            h2 {
+                font-size: 1.80em;
+            }
+
+            h3 {
+                font-size: 0.8em;
+            }
+        </style>
+
+        <h1>
+            Texto bla bla bla
+        </h1>
+
+        <h2>
+            Texto bla bla bla
+        </h2>
+
+        <h3>
+            Texto bla bla bla
+        </h3>
+
+    </body>
+</html>
+
+<!-- ======================================================================================== -->
+<!-- Exemplo de tabela e div com CSS-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            div {
+                width: 75%;
+            }
+
+            table {
+                border-collapse: collapse;
+                width: 50%;
+            }
+
+            table, td, th {
+                border: 3px solid black;
+            }
+        </style>
+    </head>
+
+    <body>
+        <div width = "50%">
+            <table>
+                <tr>
+                    <th> TAG </th>
+                    <th> Descrição</th>
+                </tr>
+                <tr>
+                    <td> TR </td>
+                    <td> Inicia nova linha </td>
+                </tr>
+                <tr>
+                    <td> TD </td>
+                    <td> Inica uma nova coluna </td>
+                </tr>           
+            </table>
+        </div>        
+    </body>
+</html>
+
+<!-- ================================================================= -->

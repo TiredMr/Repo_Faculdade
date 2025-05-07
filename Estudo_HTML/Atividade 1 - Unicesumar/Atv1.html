@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <style>
+        p {
+            color: red;
+        }
+    </style>
+    <script>
+        window.onload = function (){
+            let figura = document.getElementById("imagem"); figura.src = "paisagem.jpg";
+            let link = document.getElementById("link1").innerHTML = "http://www.exemplo.com/";
+            let cor = document.getElementById("paragrafo"); cor.style.color = "yellow";
+        };
+    </script>
+</head>
+<body>
+    <div id="main">
+        <p id="paragrafo" onload="trocas()">Acesse o <a id="link1" href="http://www.exemplo.com/">site</a></p>
+        <p id="p2"><img id="imagem" src="foto.jpg" alt=""></p>
+    </div>
+</body>

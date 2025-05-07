@@ -1,0 +1,341 @@
+<!-- Adiciona um espaço na pagina para algum conteudo independente (Texto,Formulario e etc.). -->
+ <article>
+    Conteudo
+ </article>
+
+<!-- Adiciona um conteudo relacionado a pagina. -->
+<aside>
+    Conteudo
+</aside>
+
+ <!-- Adiciona um Botao, Radiobutton ou Checkbox para Formularios. -->
+<command>
+    Botao
+</command>
+
+<!-- Adiciona um detalhamento (Oculta) a uma parte da pagina. -->
+<details>
+    Detalhe
+</details>
+
+<!-- Adiciona um sumario a pagina. -->
+<summary>
+    Sumario
+</summary>
+
+<!-- Adiciona uma legenda a uma figura ou imagem. -->
+<figure>
+    Legenda
+</figure>
+
+<!-- Adiciona uma legenda da figura em uma secção. -->
+<figcaption>
+    Legenda
+</figcaption>
+
+<!-- Adiciona um rodape a pagina. -->
+ <footer>
+    Rodape
+ </footer>
+
+ <!-- Adiciona uma introdução para a pagina (Usado para texto de introdução ou para links). -->
+<header>
+    Introduçao
+</header>
+
+<!-- Adiciona titulos (usando a tag <h1> a <h6>) sendo que o maior é o titulo e os outros são subtitulos. -->
+<hgroup>
+    <h1> Titulo1 </h1>
+    <h2> Titulo2 </h2>
+    <h3> Titulo3 </h3>
+</hgroup>
+
+<!-- Adiciona o efeito de destacar textos. -->
+<mark> Texto </mark>
+
+<!-- Adiciona um medidor (Quando o valor minimo e o maximo são conhecidos). -->
+<meter>
+    Medidor
+</meter>
+
+<!-- Adiciona um menu de navegação por links a pagina. -->
+<nav>
+    <a href="url" target="_self">
+        link1
+    </a>
+</nav>
+
+<!-- Adiciona o progresso de uma tarefa. -->
+<progress>
+    Tarefa
+</progress>
+
+<!-- Adiciona uma seção de um documento como capitulos, cabeçalhos, rodapes. -->
+<section>
+    Seção
+</section>
+
+<!-- Define um tempo ou data. -->
+<time>
+    Tempo
+</time>
+
+<!-- Adiciona uma quebra de palavra para definir uma oportunidade de quebra de linha. -->
+<wbr>
+
+<!-- ================================================================================== -->
+<!-- Tag <form></form>, Formularios. -->
+
+<!-- Adiciona um formulario (exemplo de um buscador). -->
+<form>
+    <p><label for="Procurar">
+        <input type="search" name="query">
+    </label></p>
+    <p>
+        <button type="submit"> enviar </button>
+    </p>
+</form>
+
+<!-- =================================================================================== -->
+<!-- Parametros da Tag form. -->
+
+<!-- Indica onde o formulario enviara os dandos que forem enviados dos campos pelo usuario. -->
+<form action="Pagina.php"></form>
+
+<!-- Mesmo parametro acima porem mais seguro (Os dados enviados não ficam na barra de endereços do navegador). -->
+<form method="post">
+    
+</form>
+
+<!-- Indica a proxima etapa apos o usuario enviar os dados "Abrir nova aba, janela ou continuar na mesma pagina" preservando a pagina conendo o formulario na janela ou aba atual.
+     Usa os mesmo parametros da Tag <a> -->
+<form target="_blank"></form>
+
+<!-- Define o conjunto de caracteres aceitos no preencimento do formulario. -->
+<form accept-charset="UFT-8859"></form>
+
+<!-- Define o metodo de encriptação dos dados do formulario quando enviados. -->
+<form enctype="application/x-www-form-urlencoded"></form>
+
+<!-- Define se o autopreenchimento sera permitido. 
+     O padrão é "ON"-->
+<form autocomplete="off"></form>
+
+<!-- Define se haverá ou não validação nos campos do formulario. -->
+<form novalidate="on"></form>
+
+<!-- Delimita um conjunto de campos, agrupando para serem enviados por meio da Tag "button". -->
+<fieldset></fieldset>
+
+<!-- Define um titulo para um conjunto de campos. -->
+<legend> Legenda </legend>
+
+
+<!-- ============================================================ -->
+<!-- Tag <button>, criar botões para controle de dados dos campos do formulario. -->
+<button></button>
+
+<!-- Parametro responsavel por enviar os dados usando Tag <button>. -->
+<button type="submit"> 
+    Botão
+</button>
+
+<!-- Parametro da tag <button> para limpar o formulario. -->
+<button type="reset">
+    Botão
+</button>
+
+<!-- Parametro que substitui o "action", enviando os dados para o link valido indicado. -->
+<button type="submit" formaction="url"></button>
+
+<!-- Parametro que substitui o <method> e define o método HTTP para envido dos dados para a url usando GET, POST, PUT ou DELETE. -->
+<button type="submit" formaction="url" formmethod="get"></button>
+
+<!-- Parametro que substitui o <novalidate> sendo True para não validar. -->
+<button type="submit" formnovalidate="True"></button>
+
+<!-- Parametro que substitui o <target>. -->
+<button type="submit" formtarget="_blank"></button>
+
+<!-- Cria um alerta (Tipo caixa de mensagem) para o Usuario apos o clique no botão da tag <button>. -->
+<button type="submit" onclick="alert('Dados Enviados')"></button>
+
+
+<!-- ==================================================================================== -->
+<!-- Tag <label>, define o tipo do campo que será criado. -->
+<label></label>
+
+<!-- Parametros da Tag "Label": <input>. -->
+<input>
+
+<!-- Cria um campo com o parametro definido pelo "type". -->
+<label> 
+    <input type="text">
+</label>
+
+<!-- Permite multiplas escolhas em um campo. -->
+<label>
+    <input multiple="true">
+</label>
+
+<!-- Define o nome da "variavel" que ira reber os dados. -->
+<label>
+    <input name="Nome">
+</label>
+
+<!-- Ajuda o usuario a preencher o campo com os dados corretos. -->
+<label>
+    <input placeholder="Dado Campo">
+</label>
+
+<!-- Define uma largura e altura para o campo. -->
+<input width="20" height="20">
+
+<!-- -->
+
+<!-- ===================================================================================== -->
+<!-- Definicoes da Tag "type" para definir os tipos dos campos. -->
+
+<!-- Foca o campo após a pagina ser carregada. -->
+<label>
+    <input type="text" autofocus>
+</label>
+
+<!-- Cria um campo do tipo de seleção de data completa com um calendario. -->
+<label>
+    <input type="date">
+</label>
+
+<!-- Ajusta a data e hora. -->
+<label>
+    <input type="datetime">
+</label>
+
+<!-- Cria um campo do tipo de seleção de data completa e hora. -->
+<label>
+    <input type="datetime-local">
+</label>
+
+<!-- Cria um campo do tipo que valida e-mails. -->
+<label>
+    <input type="email">
+</label>
+
+<!-- Cria um campo do tipo de seleção de meses de anos. -->
+<label>
+    <input type="month">
+</label>
+
+<!-- Cria um campo do tipo de selecionar numeros.
+      "step" = intervalo de seleção (de 1 em 1, 2 em 2...)
+      "min" e "max" = Intervalo minino e maximo do campo-->
+<label>
+    <input type="number" min="1" max="99" step="1">
+</label>
+
+<!-- Cria um campo do tipo botão deslizante. -->
+<label>
+    <input type="range">
+</label>
+
+<!-- Cria um campo de pesquisa. 
+     "name" = "variavel" que recebera a entrada da pesquisa. -->
+<label>
+    <input type="search" name="query">
+</label>
+
+<!-- Cria um campo do tipo que valida numeros de telefone. -->
+<label>
+    <input type="tel">
+</label>
+
+<!-- Cria um campo do tipo que valida e-mails com o tipo "url" -->
+<label>
+    <input type="url">
+</label>
+
+<!-- Cria um campo formatado para seleção de semanas. -->
+<label>
+    <input type="week" name="Dia">
+</label>
+
+<!-- Cria um campo do tipo de checagem (Sim ou Não). -->
+<label>
+    <input type="checkbox">
+</label>
+
+<!-- Cria um campo para seleção de cores. -->
+<label>
+    <input type="color">
+</label>
+
+<!-- Cria um campo para enviar arquivos. -->
+<label>
+    <input type="file">
+</label>
+
+<!-- Cria um campo "oculto". -->
+<label>
+    <input type="hidden">
+</label>
+
+<!-- Cria um campo para inclusão de imagens. -->
+<label>
+    <input type="image">
+</label>
+
+<!-- Cria um campo para entrada de senhas (Mostrando "*"). -->
+<label>
+    <input type="password">
+</label>
+
+<!-- Cria um campo de multipla escolha agrupado. -->
+<label>
+    <input type="radio">
+</label>
+
+<!-- Cria um campo do tipo Texto-->
+<label>
+    <input type="text">
+</label>
+
+<!-- Cria uma lista de opções para um campo.
+     list = Define qual lista sera mostrada.
+     id = Define o nome da lista.
+     option = Adiciona as opções para a lista.
+     value = Define o valor padrão da opção da lista. -->
+<label>
+    <input type="text" list="Lista">
+        <datalist id="Lista">
+                <option value="Opcao1"> Opcao 1 </option>
+                <option value="Opcao2"> Opcao 2 </option>
+        </datalist>         
+</label>
+
+<!-- ============================================================ -->
+<!-- Tag <video> e <audio>, usada para exibir um video e reproduzir um audio na pagina -->
+<video></video>, <audio></audio>
+
+<!-- Define uma largura e altura para a exibição do video. -->
+<video width="50" height="64"></video>
+
+<!-- Exibe um controlador de execução para o video e no reprodutor de audio (Minutos, Volume, Tela cheia, etc.). -->
+<video controls></video>
+<audio controls></audio>
+
+<!-- Faz com que o video ou o audio se inicie automaticamente-->
+<video autoplay></video>
+<audio autoplay></audio>
+
+<!-- Indica o arquivo a ser executado. 
+     type: Define o codec padrão do video ou do audio a ser executado-->
+<video>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.ogg" type="video/ogg">
+</video>
+
+<audio>
+    <source src="som.ogg" type="audio/ogg">
+    <source src="audio.mp3" type="audio/mpeg">
+</audio>
+
